@@ -11,8 +11,8 @@
 <body>
   <div class="flex h-screen ">
     <!-- Left pane -->
-    <div class="hidden h-screen lg:block">
-      <img src="/src/img/Rectangle 2756.png" alt="hero" class="object-cover w-full h-full" />
+    <div class="hidden lg:block">
+      <img src="/src/img/Rectangle 2756.png" alt="hero" class="object-cover h-full" />
     </div>
 
     <!-- Right pane -->
@@ -30,10 +30,12 @@
         <form action="#">
           <div class="space-y-3">
             <div>
+              <label class="hidden text-sm lg:block" for="">Login</label>
               <input type="email" placeholder="Email or phone number "
                 class="w-full py-2 pl-4 pr-2 rounded-md text-zinc-500 font-Roboto bg-neutral-200" />
             </div>
             <div>
+              <label class="hidden text-sm lg:block " for="">Password</label>
               <input type="password" placeholder="Enter password"
                 class="w-full py-2 pl-4 pr-2 rounded-md text-zinc-500 font-Roboto bg-neutral-200" />
             </div>
@@ -67,11 +69,11 @@
             <span class="text-lg font-bold font-Poppins text-violet-950 ">Vision Capital</span>
           </a>
         </div>
-        <div class="relative flex items-center justify-center">
+        <footer class="relative flex items-center justify-center">
           <p class=" text-xs font-Roboto text-stone-500 lg:mt-[200px]">
             © Perfect Login 2021
           </p>
-        </div>
+        </footer>
       </div>
     </div>
   </div>
